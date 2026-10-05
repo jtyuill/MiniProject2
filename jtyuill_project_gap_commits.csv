@@ -1,0 +1,600 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;ifcopenshell_ifcopenshell;d4e4ca3a2a0a35d694c7c0036c3393c8f167c5a6;Thomas Krijnen <t.krijnen@gmail.com>;1405771067;"Add id() and is_a() functions to entity_instance class Make filename argument to open() function optional
+"
+pre;ifcopenshell_ifcopenshell;286e9d183a5b2d77a245bca69b23666752f06355;Yorik van Havre <yorik@uncreated.net>;1405870990;"Made ifc.py compatible with python2
+"
+pre;ifcopenshell_ifcopenshell;9a1c7af95384c619fa439639d1399b2f25b50148;Thomas Krijnen <t.krijnen@gmail.com>;1406200494;"Fixes for IfcRectangleHollowProfileDef and filleted profile generation.
+"
+pre;ifcopenshell_ifcopenshell;f68060f566dbb05dd840c3367663b3d726128528;Thomas Krijnen <t.krijnen@gmail.com>;1406200494;"Fixes for IfcRectangleHollowProfileDef and filleted profile generation.
+"
+pre;ifcopenshell_ifcopenshell;cf2e82e8f567f8f3e0893f2b2d532fa472441dbd;Thomas Krijnen <t.krijnen@gmail.com>;1406200951;"Create a compsolid shape for an extrusion of a IfcCompositeProfileDef and process the opening subtraction individually
+"
+pre;ifcopenshell_ifcopenshell;eb39eeb30bce62cbf2ecbd89169c1bc92c75064b;Yorik van Havre <yorik@uncreated.net>;1406322220;"Added a function to add a new entity without inserting it into the ifc file
+"
+pre;ifcopenshell_ifcopenshell;33625c6422193990eaf59044745f7cdd9c6cb30f;Thomas Krijnen <t.krijnen@gmail.com>;1406577833;"More robust processing of IfcPolyline and IfcPolyLoop
+"
+pre;ifcopenshell_ifcopenshell;e77216d41ce03f4aee005d5ea099ac6cadbd05d8;Thomas Krijnen <t.krijnen@gmail.com>;1406577833;"More robust processing of IfcPolyline and IfcPolyLoop
+"
+pre;ifcopenshell_ifcopenshell;6e44683b5dfdfb070dbc80640dfabbd1290378fa;Thomas Krijnen <t.krijnen@gmail.com>;1406578372;"Add another IfcFacetedBrep test case
+"
+pre;ifcopenshell_ifcopenshell;e744ba404efab3b713f7c0917bd6dd85c43dedad;Yorik van Havre <yorik@uncreated.net>;1406644009;"Renamed ifc.py to ifcopenshell.py and made it installable
+"
+post;ifcopenshell_ifcopenshell;872dd4e83183e30fc2c9b70403bdf07b511e3b7a;Thomas Krijnen <t.krijnen@gmail.com>;1414953411;"Rewrite IfcFile::AddEntity() not to rely on exceptions, as suggested by ch0kee.
+"
+post;ifcopenshell_ifcopenshell;120de2f60112747606eaf99846b89e3664654307;Thomas Krijnen <t.krijnen@gmail.com>;1414954212;"Remove erroneous qualifier
+"
+post;ifcopenshell_ifcopenshell;96ce5f6b25e0f1836cf4285394d4ab7e5071e1ef;Thomas Krijnen <t.krijnen@gmail.com>;1415102548;"Don't compare smart pointers to zero, but convert to bool
+"
+post;ifcopenshell_ifcopenshell;d28871e7fced3ab4ca4acb45523a5c30a23b2f46;Thomas Krijnen <t.krijnen@gmail.com>;1415102548;"Don't compare smart pointers to zero, but convert to bool
+"
+post;ifcopenshell_ifcopenshell;5fdefceddd87ff1ba650e11f9f65ab6e0577abe4;Thomas Krijnen <t.krijnen@gmail.com>;1415104619;"Reconstruct the form of the transformation to improve the output of the OpenCascade-based serializers
+"
+post;ifcopenshell_ifcopenshell;cd366bf8c2097b60967cca91f2388ac7367d2c11;Thomas Krijnen <t.krijnen@gmail.com>;1415104619;"Reconstruct the form of the transformation to improve the output of the OpenCascade-based serializers
+"
+post;ifcopenshell_ifcopenshell;0fd88be5a37a228949c2f6f55a643e7d7bf4bf33;Thomas Krijnen <t.krijnen@gmail.com>;1415105120;"Catch all errors when parsing boost program_options in IfcConvert
+"
+post;ifcopenshell_ifcopenshell;24044fb92a750362653da6076669aab9d05f65d6;Thomas Krijnen <t.krijnen@gmail.com>;1415105120;"Catch all errors when parsing boost program_options in IfcConvert
+"
+post;ifcopenshell_ifcopenshell;ba00526e1bcc8530d52ed802aa9f4f42f4af4c86;Thomas Krijnen <t.krijnen@gmail.com>;1415207727;"Update documentation for filename change
+"
+post;ifcopenshell_ifcopenshell;7f8d84a1afa99fa61c48474beb764ec61e8a8c9f;Thomas Krijnen <t.krijnen@gmail.com>;1416238320;"Fix omitted return statement in previous commit
+"
+pre;lastools_lastools;caa3cd1c20606dc91094e7f656266d6d7630b195;rapidlasso GmbH <jochen.keil@rapidlasso.de>;1657869978;"Merge pull request #132 from a2sng/fix-add-evlr
+
+Fix wrong evlr count variable"
+pre;lastools_lastools;7664ab68c7c0a005491ba3be5d90ddf87d032090;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1667832039;"Parse and display copc info VLR
+"
+pre;lastools_lastools;f3e1bf6713c7f101fb97e82715a101139ea02396;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1668021126;"Read COPC EPT hierachy
+"
+pre;lastools_lastools;6737212464fa6b221a5409361275d65a7ffc0198;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1668128603;"Fix wrong stream + allocate with calloc
+"
+pre;lastools_lastools;ecce15fb8510d286ab1831cdbf26abee5dedd2c8;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1668132991;"no useless memory allocation
+"
+pre;lastools_lastools;9bdc92c73047b46be25e5c2ed4abda2521e30fba;jochen.keil <jochen.keil@bitbumper.de>;1669657486;"lastools 221128 - las2las: added parameter '-load_ogc_wkt', update doc, missing cs codes
+"
+pre;lastools_lastools;3ac4f39bb81c36614823d4652e932eeef16c9d73;Jochen Keil <jochen.keil@rapidlasso.de>;1670423888;"LASwritePoint: error-out for I/O error rather than continuing (sync with https://github.com/LASzip/LASzip/pull/85)
+"
+pre;lastools_lastools;4fd9a353cb4405ca6ab3edc58b80d7430bb99d05;Jochen Keil <jochen.keil@rapidlasso.de>;1675348462;"Support of non-extended classifications in laswriter; change ansi-hyphen into 0x96
+"
+pre;lastools_lastools;2bbbfa918df01b7f364d176610e9785bceb4d5de;Jochen Keil <jochen.keil@rapidlasso.de>;1675690774;"doc fix
+"
+pre;lastools_lastools;6ca6aa13c94ba8eb6a35d4a3297688a564c7a85e;mortenove <60923542+mortenove@users.noreply.github.com>;1677224465;"Merge d949a028e5c83679a8cf5b0a0749ff4315306069 into 2bbbfa918df01b7f364d176610e9785bceb4d5de
+"
+post;lastools_lastools;b64e34f8f572ec96df366e8a2424d382656be8ec;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1689082235;"copc reader
+"
+post;lastools_lastools;43668f056d5fef0b9eafda52417b10eef7d5f449;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1689083266;"copc writer
+"
+post;lastools_lastools;4bc5d1c4532aa0a34daf4ddcb286c8a9e9074231;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1689271907;"Fix count for U32_MAX + Fix for 0 point octant
+"
+post;lastools_lastools;22e3cf4e857c00c998479d27a96152b1e37fb71c;Jochen Keil <jochen.keil@rapidlasso.de>;1691164196;"set default of VLR header ""reserved"" to 0 instead of 0xAABB
+"
+post;lastools_lastools;35c3cae8e943aaaf3f35b47e79287bbae6723558;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1695921740;"corrections after review
+"
+post;lastools_lastools;3039eef80a997440c3a7f56240208bbaba8a0a0b;Jochen Keil <jochen.keil@rapidlasso.de>;1698259801;"update to LASzip 3.4.4: fix integer overflow of number_of_point_records when using laszip_update_inventory
+"
+post;lastools_lastools;5b1389d49c4ba10d63cd93366e83dd3681b8a22f;Jean-Romain <Jean-Romain@users.noreply.github.com>;1698624444;"Fix boolean negation
+
++ geotiff spelling"
+post;lastools_lastools;b79e0e3dd7bab4f90591a781b3942db3eb8b019b;rapidlasso GmbH <jochen.keil@rapidlasso.de>;1700238484;"Merge pull request #156 from Jean-Romain/master
+
+Full COPC implementation"
+post;lastools_lastools;8ad218873bf9d12fd7c8facaebb35bf3e7771f1d;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1700556125;"Fix copc query with LASreaderMerged
+"
+post;lastools_lastools;0989ab0c3648db9843478c98f409c76b7c1c2024;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1700559771;"propagate copc stream order to LASreaderMerged
+"
+pre;opendatacube_datacube-explorer;03b1dd465963ac17b229f23d62225f13e30e27f1;Jeremy Hooke <jez@stulk.com>;1491420286;"Add simple setup/run instructions
+"
+pre;opendatacube_datacube-explorer;e04ad67cb538f0a77197c2eceeb58fa0051ed192;Jeremy Hooke <jez@stulk.com>;1491420286;"Add simple setup/run instructions
+"
+pre;opendatacube_datacube-explorer;27c7063553d438fe55b73d6ac3e87b508f76e437;Jeremy Hooke <jez@stulk.com>;1491593434;"Consistent message position across screen sizes
+"
+pre;opendatacube_datacube-explorer;8e426d1dc2ef76843cf541f96172967a42db4f6c;Jeremy Hooke <jez@stulk.com>;1491593434;"Consistent message position across screen sizes
+"
+pre;opendatacube_datacube-explorer;d3e5ff45f859dd5abe6f339020f9201b7e7d7744;Jeremy Hooke <jez@stulk.com>;1491593465;"Show dataset & metadata types on dataset page.
+"
+pre;opendatacube_datacube-explorer;f185e7d32f7211a7d4aa53dbc1d15646d90ed8ed;Jeremy Hooke <jez@stulk.com>;1491593465;"Show dataset & metadata types on dataset page.
+"
+pre;opendatacube_datacube-explorer;4cc28ce6f2cbf4e47c18aaab53335bd52f1c1b8a;Jeremy Hooke <jez@stulk.com>;1491594559;"Limit shape display to datasets with extents
+"
+pre;opendatacube_datacube-explorer;51f67febd8a7ebdac127aff4a5c3cff1f844a5f9;Jeremy Hooke <jez@stulk.com>;1491594559;"Limit shape display to datasets with extents
+"
+pre;opendatacube_datacube-explorer;3aa8184a29b2d2c4bdcf892523da45b1db9bee64;Jeremy Hooke <jez@stulk.com>;1491594593;"Display field parameters in two columns
+"
+pre;opendatacube_datacube-explorer;a8d73336fbda3c923bbf1f60a76709106d60bfaa;Jeremy Hooke <jez@stulk.com>;1491594593;"Display field parameters in two columns
+"
+post;opendatacube_datacube-explorer;1eba4ebe98abf0e1203ec84cffeb24876af30e4c;Alex Vincent <alexander.vincent@ga.gov.au>;1507618604;"Set run IP to 0.0.0.0 in run.sh
+"
+post;opendatacube_datacube-explorer;cf2c9fe4a32069c79b44a51e2e3c5900633b42a5;Alex Vincent <alexander.vincent@ga.gov.au>;1507618604;"Set run IP to 0.0.0.0 in run.sh
+"
+post;opendatacube_datacube-explorer;d2e1000378107a9839c869bd7f3594c0fc9351c0;Alex Vincent <alexander.vincent@ga.gov.au>;1507618604;"Set run IP to 0.0.0.0 in run.sh
+"
+post;opendatacube_datacube-explorer;1a0d1a8ee429512951e023ef851e21be0352ac2f;Alex Vincent <alexander.vincent@ga.gov.au>;1508129873;"Fixed issues identified by pylint
+"
+post;opendatacube_datacube-explorer;4a4374d961a865c2d8d69a2f6d59c12b63a33d16;Alex Vincent <alexander.vincent@ga.gov.au>;1508129873;"Fixed issues identified by pylint
+"
+post;opendatacube_datacube-explorer;94fbf10a495052614df74f4cfd6dfcb9550f0e7e;Alex Vincent <alexander.vincent@ga.gov.au>;1508129873;"Fixed issues identified by pylint
+"
+post;opendatacube_datacube-explorer;7be139ce43a61fc8a5508fbbf1dcc9770a03250b;Alex Vincent <alexander.vincent@ga.gov.au>;1508136201;"fixes for python2.7; update to travis config
+"
+post;opendatacube_datacube-explorer;7ffaa08782d39c8c5c2a3fcf1c300ddc3772986d;Alex Vincent <alexander.vincent@ga.gov.au>;1508136201;"fixes for python2.7; update to travis config
+"
+post;opendatacube_datacube-explorer;dc3a5940be87e407d5f89e8a12fb490e0f5ee1df;Alex Vincent <alexander.vincent@ga.gov.au>;1508136201;"fixes for python2.7; update to travis config
+"
+post;opendatacube_datacube-explorer;494b2608708315965b59d1d0660b034ecde5d84b;Jeremy Hooke <jez@stulk.com>;1510100750;"Add more useful platform list default
+"
+pre;choderalab_pymbar;423e3c66ca82461134c45c010575f76579f37414;Levi Naden <levi.naden@choderalab.org>;1519831083;"Merge pull request #295 from choderalab/drop_subsample
+
+Remove Subsampling from MBAR Solving"
+pre;choderalab_pymbar;1a9544a7648d623b401ed31d00d541a742f68baa;Michael Shirts <mrshirts@gmail.com>;1519835498;"Starting bootstrap.
+"
+pre;choderalab_pymbar;9bd25295fb1fe4a3a14f90eff52f9fd8e3f7b9d6;Michael Shirts <mrshirts@gmail.com>;1519835659;"Merge branch 'master' into bootstrap
+"
+pre;choderalab_pymbar;661666c00e08ecf1b17cbb572504c2c65b058b2b;Levi Naden <levi.naden@choderalab.org>;1519844863;"Add DOI Badge to the README
+
+As it says on the tin
+
+The DOI tracking has been enabled for a while, this just adds it to the README/Homepage"
+pre;choderalab_pymbar;727233fea933145e0b7ae24ea97d9a2c4bb09bf1;Levi Naden <levi.naden@choderalab.org>;1519844941;"Merge pull request #299 from choderalab/doibadge
+
+Add DOI Badge to the README"
+pre;choderalab_pymbar;3dec0cc03fc11d58a4cbe5c87a0c264e767448f4;Michael Shirts <mrshirts@gmail.com>;1519862818;"Bootstrap sampling for free energies.
+"
+pre;choderalab_pymbar;17cf8afd6430618fad1f2f4cecf70128f325d307;Michael Shirts <mrshirts@gmail.com>;1519863080;"Merge 3dec0cc03fc11d58a4cbe5c87a0c264e767448f4 into 727233fea933145e0b7ae24ea97d9a2c4bb09bf1
+"
+pre;choderalab_pymbar;618500a63c196f7cf0ea42e071260122e967bfdf;Michael Shirts <mrshirts@gmail.com>;1519873302;"Added test for bootstraps, fixed bug revealed by test.
+"
+pre;choderalab_pymbar;7c02165b74fc33f1ad5e4734df8ad5b031a1f2cb;Michael Shirts <mrshirts@gmail.com>;1521430836;"Boostrap pause.
+"
+pre;choderalab_pymbar;1d5109564bc91cb2f821bee8a23d5d6522a9b604;Kamran Haider <kamran-haider@users.noreply.github.com>;1521824681;"Merge c653a5892c7ac9a727a7cb4d880106df98111fa7 into 727233fea933145e0b7ae24ea97d9a2c4bb09bf1
+"
+post;choderalab_pymbar;e4538735789851fb014ee47a7ac4c1b435931c5f;Michael Shirts <mrshirts@gmail.com>;1548880444;"Fixed README.md for examples
+
+Fixed README so the examples use the correct calling instructions."
+post;choderalab_pymbar;bdff166c0491bb2f8bd8ca581c26a521fec766b6;Michael Shirts <mrshirts@gmail.com>;1548880454;"Merge e4538735789851fb014ee47a7ac4c1b435931c5f into 727233fea933145e0b7ae24ea97d9a2c4bb09bf1
+"
+post;choderalab_pymbar;40016a76754eb3595a1aac4561b15ee205e363e7;Michael Shirts <mrshirts@gmail.com>;1553409079;"First pass at making separate pmf routines.
+"
+post;choderalab_pymbar;b941d953cb1837734c527ecfad50e02d6a44dcbd;Michael Shirts <mrshirts@gmail.com>;1553409098;"Addd pmf.py
+"
+post;choderalab_pymbar;ed493a4ed648c684d92642c32ce443cfd53f88d5;Michael Shirts <mrshirts@gmail.com>;1553409147;"removed unneeded functions.
+"
+post;choderalab_pymbar;46a439acca4957e65957486b643a6bd99d12a2a7;Michael Shirts <mrshirts@gmail.com>;1553421244;"alpha version of pmf.py
+"
+post;choderalab_pymbar;8f446c461d5ff87a6722f48d06cde5f44b5f312f;Michael Shirts <mrshirts@gmail.com>;1553454129;"Working on examples.
+"
+post;choderalab_pymbar;dc22c8416546b1925c85e934576336617581d873;Michael Shirts <mrshirts@gmail.com>;1553457600;"Working to run 1-D example.
+"
+post;choderalab_pymbar;d060bf7967051971223f8aaedfcb4d20645a9292;Michael Shirts <mrshirts@gmail.com>;1553457643;"remove debugging.
+"
+post;choderalab_pymbar;419b3ad2459b279f6030ef9b3e2150ed882f6858;Michael Shirts <mrshirts@gmail.com>;1553459184;"Matches old for umbrella-sampling.py
+"
+pre;tensorflow_tfjs;6ecbf145ff591dbcfe0962d951f00298fa6bd099;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1754505360;"Bump tmp from 0.2.1 to 0.2.4 in /e2e/benchmarks/browserstack-benchmark
+
+Bumps [tmp](https://github.com/raszi/node-tmp) from 0.2.1 to 0.2.4.
+- [Changelog](https://github.com/raszi/node-tmp/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/raszi/node-tmp/compare/v0.2.1...v0.2.4)
+
+---
+updated-dependencies:
+- dependency-name: tmp
+  dependency-version: 0.2.4
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;tensorflow_tfjs;6fec719582288d4eb9d0461cb0906af48bab67dd;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1754505363;"Merge 6ecbf145ff591dbcfe0962d951f00298fa6bd099 into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+pre;tensorflow_tfjs;4496c9aafa28d351a63dd9df2cb01c2a371a2eb1;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1755789530;"Bump cipher-base from 1.0.4 to 1.0.6 in /e2e
+
+Bumps [cipher-base](https://github.com/crypto-browserify/cipher-base) from 1.0.4 to 1.0.6.
+- [Changelog](https://github.com/browserify/cipher-base/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/crypto-browserify/cipher-base/compare/v1.0.4...v1.0.6)
+
+---
+updated-dependencies:
+- dependency-name: cipher-base
+  dependency-version: 1.0.6
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;tensorflow_tfjs;1e489082985278590ba16774df7ca4278590efa8;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1755789533;"Merge 4496c9aafa28d351a63dd9df2cb01c2a371a2eb1 into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+pre;tensorflow_tfjs;f5e51efb92816776fc56adc55ba260c563eb5bae;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1755791612;"Bump sha.js from 2.4.11 to 2.4.12 in /e2e
+
+Bumps [sha.js](https://github.com/crypto-browserify/sha.js) from 2.4.11 to 2.4.12.
+- [Changelog](https://github.com/browserify/sha.js/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/crypto-browserify/sha.js/compare/v2.4.11...v2.4.12)
+
+---
+updated-dependencies:
+- dependency-name: sha.js
+  dependency-version: 2.4.12
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;tensorflow_tfjs;c23492faeeb2038839fbedc2ad024c29a16f1671;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1755791615;"Merge f5e51efb92816776fc56adc55ba260c563eb5bae into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+pre;tensorflow_tfjs;150901498fb595c30afdc51e5ce31348c0e279d8;Cr0a3 <127748753+Cr0a3@users.noreply.github.com>;1756887779;Merge branch 'master' into master
+pre;tensorflow_tfjs;172a31ec7cce71d347944c8c3f5f43b10287a95f;Cr0a3 <127748753+Cr0a3@users.noreply.github.com>;1756887782;"Merge 150901498fb595c30afdc51e5ce31348c0e279d8 into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+pre;tensorflow_tfjs;74d8df55e07149b163d64d5d92903bde76a1df99;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1758740757;"Bump tar-fs from 2.1.1 to 2.1.4 in /tfjs-inference
+
+Bumps [tar-fs](https://github.com/mafintosh/tar-fs) from 2.1.1 to 2.1.4.
+- [Commits](https://github.com/mafintosh/tar-fs/compare/v2.1.1...v2.1.4)
+
+---
+updated-dependencies:
+- dependency-name: tar-fs
+  dependency-version: 2.1.4
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;tensorflow_tfjs;2d0d330e4e16f162afb31e4ff44ee99a60e0d27e;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1758740761;"Merge 74d8df55e07149b163d64d5d92903bde76a1df99 into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+post;tensorflow_tfjs;db6ea6ae51511e89157b1be8936167762ba2fdfc;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1763073346;"Bump vega-interpreter in /tfjs-data/demo/boston-housing
+
+Bumps [vega-interpreter](https://github.com/vega/vega) from 1.0.4 to 1.2.1.
+- [Release notes](https://github.com/vega/vega/releases)
+- [Commits](https://github.com/vega/vega/commits)
+
+---
+updated-dependencies:
+- dependency-name: vega-interpreter
+  dependency-version: 1.2.1
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;b40205bd7b019d530cb7732b96de9f4916df14b7;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1763307615;"Bump js-yaml from 3.14.1 to 4.1.1
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.14.1 to 4.1.1.
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.14.1...4.1.1)
+
+---
+updated-dependencies:
+- dependency-name: js-yaml
+  dependency-version: 4.1.1
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;a4462b54a5a77a9751657170ff5cb3d1b7af5d0b;khanhkhanhlele <namkhanh20xx@gmail.com>;1763457461;"Fix typos in some files
+"
+post;tensorflow_tfjs;c804e037baa571e3ce400138c2848a65f0512516;Edge-Seven <143301646+Edge-Seven@users.noreply.github.com>;1763457466;"Merge a4462b54a5a77a9751657170ff5cb3d1b7af5d0b into 0fc04d958ea592f3b8db79a8b3b497b5c8904097
+"
+post;tensorflow_tfjs;125b6c5fb2a1d2182f44f6d43375f28f714d4748;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1763466615;"Bump js-yaml in /tfjs-react-native/integration_rn59
+
+Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.13.1 to 3.14.2.
+- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/nodeca/js-yaml/compare/3.13.1...3.14.2)
+
+---
+updated-dependencies:
+- dependency-name: js-yaml
+  dependency-version: 3.14.2
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;7b48dce2a953e4b7309389d36f026a4b5eed403a;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1764195331;"Bump node-forge in /e2e/benchmarks/browserstack-benchmark
+
+Bumps [node-forge](https://github.com/digitalbazaar/forge) from 1.3.1 to 1.3.2.
+- [Changelog](https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/digitalbazaar/forge/compare/v1.3.1...v1.3.2)
+
+---
+updated-dependencies:
+- dependency-name: node-forge
+  dependency-version: 1.3.2
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;3aa9ae484449be8806bd673d2fc8e203ce30639a;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1764243019;"Bump node-forge in /tfjs-backend-wasm/starter/webpack
+
+Bumps [node-forge](https://github.com/digitalbazaar/forge) from 1.3.0 to 1.3.2.
+- [Changelog](https://github.com/digitalbazaar/forge/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/digitalbazaar/forge/compare/v1.3.0...v1.3.2)
+
+---
+updated-dependencies:
+- dependency-name: node-forge
+  dependency-version: 1.3.2
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;8c1a46f4e2869ef8c709fa74b41dbcd0345242a4;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1764615944;"Bump express from 4.18.2 to 4.22.0
+
+Bumps [express](https://github.com/expressjs/express) from 4.18.2 to 4.22.0.
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.22.0/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.18.2...4.22.0)
+
+---
+updated-dependencies:
+- dependency-name: express
+  dependency-version: 4.22.0
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;b3d1f46399af3d1843a8c54de748c6fa362cef7e;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1764867455;"Bump jws from 3.2.2 to 3.2.3 in /e2e/benchmarks/browserstack-benchmark
+
+Bumps [jws](https://github.com/brianloveswords/node-jws) from 3.2.2 to 3.2.3.
+- [Release notes](https://github.com/brianloveswords/node-jws/releases)
+- [Changelog](https://github.com/auth0/node-jws/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/brianloveswords/node-jws/compare/v3.2.2...v3.2.3)
+
+---
+updated-dependencies:
+- dependency-name: jws
+  dependency-version: 3.2.3
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;tensorflow_tfjs;a2f81705082adfebf73b0a21280fca6e0a989b04;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1764867574;"Bump jws from 3.2.2 to 3.2.3
+
+Bumps [jws](https://github.com/brianloveswords/node-jws) from 3.2.2 to 3.2.3.
+- [Release notes](https://github.com/brianloveswords/node-jws/releases)
+- [Changelog](https://github.com/auth0/node-jws/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/brianloveswords/node-jws/compare/v3.2.2...v3.2.3)
+
+---
+updated-dependencies:
+- dependency-name: jws
+  dependency-version: 3.2.3
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;kvos_coastsat;d28f0fe960475fee4cccfcfdbea75582f94b7f83;Phillip Steeves <phillip.jws@gmail.com>;1737489165;"Updated paths to reflect an example
+"
+pre;kvos_coastsat;149b1b15664ad1c7f61a7ed94d9ff8e793f91f2c;Kilian Vos <voskilian@gmail.com>;1739974893;"bugfix tidal prediction
+
+based on #570
+"
+pre;kvos_coastsat;980b3aef280a09d11f3464ff2493f903e9a086df;Kilian Vos <voskilian@gmail.com>;1740069453;"add documentation on clipping tides
+
+follow up on PR #566
+"
+pre;kvos_coastsat;34701af62d004cdb1930edab57a2aa99c80e8ae6;Kilian Vos <voskilian@gmail.com>;1740069535;add example geojson to clip tides
+pre;kvos_coastsat;bc4d0c965b32339d5b351f9c7ad407dbb909d774;Gianfranco Di Pietro <gianfrancodipietro@gmail.com>;1741364805;"Update FES2022_setup.md
+
+inserted a warning for special chars in path values in the yaml file."
+pre;kvos_coastsat;2285f7b335734359a668053fe6bdde9367e749e6;Kilian Vos <voskilian@gmail.com>;1741383702;"Merge pull request #585 from gianfrancodp/patch-1
+
+FES2022_setup.md: added comment about special characters "
+pre;kvos_coastsat;631ef1b639a50e271c6ea2b5d928892104ca83df;Kilian Vos <voskilian@gmail.com>;1742282433;Update FES2022_setup.md
+pre;kvos_coastsat;7ecf6cc90d49621051c135cffd77d140743553d3;Avenel Théophile <theophile.avenel@gmail.com>;1743796719;"Merge ef71e417d234f476094cd73de498cc8f16795289 into 631ef1b639a50e271c6ea2b5d928892104ca83df
+"
+pre;kvos_coastsat;1a03e378b8543a13a377c9080ea3c26fb77441c5;Kilian Vos <voskilian@gmail.com>;1747250257;"bugfix: issue with duplicates files with Landsat
+"
+pre;kvos_coastsat;22b88217f425c067f2bf38e6719f460dc70a9809;Kilian Vos <voskilian@gmail.com>;1747311942;"bugfix
+"
+post;kvos_coastsat;0dd54b4bb35460748c97863216671151a80b6cc8;Kilian Vos <voskilian@gmail.com>;1759441655;Update dataset links and add Medium articles section
+post;kvos_coastsat;3a3e6ba05313a95f37bc37653ddb0c9e33f5ef3e;Kilian Vos <voskilian@gmail.com>;1759581005;"Revise GEE Python API activation instructions
+
+Updated instructions for activating Google Earth Engine Python API with clearer steps and additional details."
+post;kvos_coastsat;1b9da346dc27f4180f30ec5b343a6997e45a283a;Kilian Vos <voskilian@gmail.com>;1759597692;"fix: authentication to GEE with project name
+
+see #596 , this should fix that problem of GEE authentication.
+"
+post;kvos_coastsat;567c6a4f755c492cbfe03eaac32f9e6191328686;Avenel Théophile <theophile.avenel@gmail.com>;1760999405;"Merge ef71e417d234f476094cd73de498cc8f16795289 into 1b9da346dc27f4180f30ec5b343a6997e45a283a
+"
+post;kvos_coastsat;98103cb450f7b511bb63942fe4810b84edc33a1c;Kilian Vos <voskilian@gmail.com>;1762002533;"Update README.md
+"
+post;kvos_coastsat;8b5dc92f2aa428624d2f80f9ac6e2a5238e3d26f;BSL16 <bambasakho16@gmail.com>;1763321060;" Add .gitignore
+"
+post;kvos_coastsat;9e2ae91f879f6ad585e02a4f309031bf184614fd;BSL16 <bambasakho16@gmail.com>;1763321156;" Example with Soulac-sur mer without removing outliers and slope estimation
+"
+post;kvos_coastsat;f64cb27f69e8e3fbf5f168bb98886ec85c7fbb1c;guzrf <guzmanrdz2a@gmail.com>;1764087948;"split area function
+"
+post;kvos_coastsat;e31738636be04102b461928be5ea9f43c648ea23;guzrf <guzmanrdz2a@gmail.com>;1764088111;"merge rasters function
+"
+post;kvos_coastsat;25ee0b8e4a88aa76ec30827f0c57426cf5b26b64;guzrf <guzmanrdz2a@gmail.com>;1764088187;"building metadata structure function
+"
+pre;jakobrunge_tigramite;7b2a0b4443848eca12f8caa40639ddcb21990df7;Jakob Runge <jakobrunge@gmail.com>;1734687689;Merge branch 'master' into developer
+pre;jakobrunge_tigramite;c71e8638d53d33cbca697f29cc1c1395206a9165;Jakob Runge <jakobrunge@gmail.com>;1734687700;"Merge pull request #437 from jakobrunge/developer
+
+Developer"
+pre;jakobrunge_tigramite;6737bee8810a3b459e7fce96e5036555532f0f6e;jakobrunge <jakobrunge@gmail.com>;1734687764;"added cmiknn_mixed independence test
+"
+pre;jakobrunge_tigramite;a35f2053ca7f0dbc68c2d2163778df3ef9a7da6f;jakobrunge <jakobrunge@gmail.com>;1734687857;"Merge branch 'developer' of https://github.com/jakobrunge/tigramite into developer
+"
+pre;jakobrunge_tigramite;360648329a3f47079f102257bded4327ef3c8a1d;Jakob Runge <jakobrunge@gmail.com>;1734687948;"Merge pull request #438 from jakobrunge/developer
+
+Developer"
+pre;jakobrunge_tigramite;e50922d812c8a431aacbed4d25be347a81f12ebc;Emmanuel Ferdman <emmanuelferdman@gmail.com>;1734863247;"Merge 2e6eff24fe699f6e8483bdd19516003faa38d6b7 into 360648329a3f47079f102257bded4327ef3c8a1d
+"
+pre;jakobrunge_tigramite;7b64c180dbf4dc8c627c3409721efa57f6120130;blastbeat <blasti@users.noreply.github.com>;1735104083;"Merge 11d0ae07d4aa83f7f6eec0597d810e8c9163974a into 360648329a3f47079f102257bded4327ef3c8a1d
+"
+pre;jakobrunge_tigramite;26a3ff61ecac6853921d5305fe43e371ec312176;Joaquín Mateos Barroso <108573823+JoaquinMateosBarroso@users.noreply.github.com>;1736674819;"Update parameter of pc_stable for pcmci
+
+In the documentation it is stated that default pc_alpha is a list (default: [0.05, 0.1, 0.2, ..., 0.5]).
+
+On the other hand, the default value is 0.2 which is not converted to this list. By setting pc_alpha to None, the code converts it to the stated list.
+
+Note: another option to solve this discrepancy is to modify the documentation, but I find it more interesting to have the optimization of pc_alpha as the default case."
+pre;jakobrunge_tigramite;cdd18e0716022db39b0896350a3a000a73d9ed53;Joaquín Mateos Barroso <108573823+JoaquinMateosBarroso@users.noreply.github.com>;1736674834;"Merge 26a3ff61ecac6853921d5305fe43e371ec312176 into 360648329a3f47079f102257bded4327ef3c8a1d
+"
+pre;jakobrunge_tigramite;d73e8026abb31b78a4f155dd54a8165df57fd467;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1738343533;"Merge 2400709b6e9dedf481a6c47354fe358f49f90b2c into 360648329a3f47079f102257bded4327ef3c8a1d
+"
+post;jakobrunge_tigramite;1da98f2c983c51f85cc9472c6dade19c4e1d3898;Vincent Verjans <vincent.verjans@bsc.es>;1750317852;"implementation of stationary bootstrap with automatic mean block length selection
+"
+post;jakobrunge_tigramite;13d4cde4aa14e404313d4e286bbde33c12e3cb06;Jakob Runge <jakobrunge@gmail.com>;1751557229;"bug fixes
+"
+post;jakobrunge_tigramite;0d0c321bddfde5832fc97b8a21ae7bc2220a652d;Jakob Runge <jakobrunge@gmail.com>;1751574071;"bug fixes
+"
+post;jakobrunge_tigramite;dfe96328d6964956825c0959c57c01dc89e5e122;Jakob Runge <jakobrunge@gmail.com>;1751574901;"bug fixes
+"
+post;jakobrunge_tigramite;334ed95f6473c9f006630db704721f76ee7c4ac4;Jakob Runge <jakobrunge@gmail.com>;1751575085;"bug fixes
+"
+post;jakobrunge_tigramite;2f050ca02b06aa4ff43ff2e132fa82b3796aef00;Jakob Runge <jakobrunge@gmail.com>;1751575245;"bug fixes
+"
+post;jakobrunge_tigramite;ea021dc01eec14338d1a86e75fb561afab8fb384;Jakob Runge <jakobrunge@gmail.com>;1751575433;"Merge pull request #451 from jakobrunge/developer
+
+Developer"
+post;jakobrunge_tigramite;3576b44f252ea4e417c98759e92f664871be67f7;Vincent Verjans <vincent.verjans@bsc.es>;1751610827;"single call to get_mean_block_length()
+"
+post;jakobrunge_tigramite;447d3bf45a65bae1c4d8d3bd1719c8e60110896c;Vincent Verjans <vincent.verjans@bsc.es>;1751611928;"minor change (forgot to remove local n_jobs modification)
+"
+post;jakobrunge_tigramite;4fd9c2eeb75a30b8505c0a8c1c5c4b79f8759f71;Jakob Runge <jakobrunge@gmail.com>;1751659698;"changed pc_alpha=0.2 in PCMCI and further small fixes
+"
+pre;clue-developers_clue;ccca548a52d84a707ab42aef0ce36d98f203e2f6;pogudingleb <pogudin.gleb@gmail.com>;1587574047;"results for n = 3, 4, 5, 6
+"
+pre;clue-developers_clue;27cc626a2c1fef2329d880c8f75689d483c4ebc8;pogudingleb <pogudin.gleb@gmail.com>;1587644733;Update README.md
+pre;clue-developers_clue;e13bc0aca3a8c56231320cbe9e7836bad4139b31;Isabel Cristina Pérez Verona <ichristine00@yandex.com>;1587656440;Update README.md
+pre;clue-developers_clue;1ab248a864fa3af9fc094b77b049da34c1b467ae;Isabel Cristina Pérez Verona <ichristine00@yandex.com>;1587656621;Update README.md
+pre;clue-developers_clue;330feaf0e826b5946ecccfae5253249ba68a437b;Isabel Cristina Pérez Verona <ichristine00@yandex.com>;1587656919;Update PP_n_2.py
+pre;clue-developers_clue;59e23a906fdfa93c7baa90443670262af544cdee;Isabel Cristina Pérez Verona <ichristine00@yandex.com>;1587656941;Update PP_n_3.py
+pre;clue-developers_clue;67103f763d19505f5b81fcf73040162f3feabfc7;Isabel Cristina Pérez Verona <ichristine00@yandex.com>;1587656970;Update PP_n_4.py
+pre;clue-developers_clue;96e585ac4ca75e82873057df1ff658f5ff9ae813;pogudingleb <pogudin.gleb@gmail.com>;1587713875;"gitattributes
+"
+pre;clue-developers_clue;15e6fc0953b871c4b1688971d7c1d628a4e01c03;pogudingleb <pogudin.gleb@gmail.com>;1587713890;"Merge branch 'master' of https://github.com/pogudingleb/ODELumper
+"
+pre;clue-developers_clue;f98fb4125284ad68d03891e08af9c57d90eefda8;pogudingleb <pogudin.gleb@gmail.com>;1587809906;Update README.md
+post;clue-developers_clue;e11bc8422f613cefa95a582edfa9dbd967dd5441;pogudingleb <pogudin.gleb@gmail.com>;1601290980;"First version of *.ode parser + updating to new sympy
+"
+post;clue-developers_clue;584b725eb71564814d3432211bb519e6167c092e;pogudingleb <pogudin.gleb@gmail.com>;1601676009;"Parser improved
+"
+post;clue-developers_clue;21e5f6591e67b626b7ce6e098383580ddb29b7f6;pogudingleb <pogudin.gleb@gmail.com>;1601849510;"Big jumps over primes
+"
+post;clue-developers_clue;26d3ea9967810ea8fc829b7374aa2cf71e89214d;gpogudin <gpogudin@inria.fr>;1601993433;"speeding up scalar multiplication
+"
+post;clue-developers_clue;ac6f0882304fa3e8edc4489f126f9ae4f978a0e6;gpogudin <gpogudin@inria.fr>;1601993517;"cleanup
+"
+post;clue-developers_clue;deb3dbdd239f070aa2cf3581bd5d3efb943f5d58;pogudingleb <pogudin.gleb@gmail.com>;1602544044;"global_dict for parsing
+"
+post;clue-developers_clue;91c850a32383eca426d2107b88c9b260284e713b;pogudingleb <pogudin.gleb@gmail.com>;1602760846;"Rewritten parser, SparsePolynomial separated; tests to be fixed
+"
+post;clue-developers_clue;f94fe623033d6f452acad84780c118049c6bdf83;pogudingleb <pogudin.gleb@gmail.com>;1602834080;"OrderedPhosphorylation example updates
+"
+post;clue-developers_clue;390b11e59cce1d86509e872c72f9e6f58c8d7217;joshuapjacob <xozhioc@gmail.com>;1602840390;"Define SparseRowMateix.to_vector and subspace_dimension
+"
+post;clue-developers_clue;197a5a1a5740d85cfbc0973d129054dcda65ca43;joshuapjacob <xozhioc@gmail.com>;1602840406;"Define SparseRowMateix.to_vector and subspace_dimension
+"
+pre;zalo_cascadestudio;97afe55127668e047036c1b4bc18f6307223491b;Johnathon Selstad <makeshifted@gmail.com>;1654727237;"Translate German Comment to English
+"
+pre;zalo_cascadestudio;93b1ea2ff33a408e5d73c2cac25f4222b222171b;Johnathon Selstad <makeshifted@gmail.com>;1654727400;"Merge pull request #141 from drb3st/master
+
+Resolving loading issue of Typescript Intellisense Definitions"
+pre;zalo_cascadestudio;c786853e5f85e3862776d1a656bdef47ba343355;Johnathon Selstad <makeshifted@gmail.com>;1654727996;"Update canonical screenshot
+"
+pre;zalo_cascadestudio;05c467d174b89f11df56660be5e005f556175f55;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655434003;"Bump jpeg-js from 0.4.3 to 0.4.4 in /test
+
+Bumps [jpeg-js](https://github.com/eugeneware/jpeg-js) from 0.4.3 to 0.4.4.
+- [Release notes](https://github.com/eugeneware/jpeg-js/releases)
+- [Commits](https://github.com/eugeneware/jpeg-js/compare/v0.4.3...v0.4.4)
+
+---
+updated-dependencies:
+- dependency-name: jpeg-js
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;zalo_cascadestudio;23e29b4a5d01b1369fa427524b5f4f5ad23eca64;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655434004;"Merge 05c467d174b89f11df56660be5e005f556175f55 into c786853e5f85e3862776d1a656bdef47ba343355
+"
+pre;zalo_cascadestudio;5bd8bc1caa4d6a3db37ba872b30637e5fb03479e;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1668185766;"Bump minimatch from 3.0.4 to 3.1.2 in /test
+
+Bumps [minimatch](https://github.com/isaacs/minimatch) from 3.0.4 to 3.1.2.
+- [Release notes](https://github.com/isaacs/minimatch/releases)
+- [Commits](https://github.com/isaacs/minimatch/compare/v3.0.4...v3.1.2)
+
+---
+updated-dependencies:
+- dependency-name: minimatch
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;zalo_cascadestudio;7612aec25108340583c58cc04523ece98b1e99b7;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1668185768;"Merge 5bd8bc1caa4d6a3db37ba872b30637e5fb03479e into c786853e5f85e3862776d1a656bdef47ba343355
+"
+pre;zalo_cascadestudio;944a0e53d821d97c22c2f3f2016009f61857570d;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1673079182;"Bump json5 from 2.2.0 to 2.2.3 in /test
+
+Bumps [json5](https://github.com/json5/json5) from 2.2.0 to 2.2.3.
+- [Release notes](https://github.com/json5/json5/releases)
+- [Changelog](https://github.com/json5/json5/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/json5/json5/compare/v2.2.0...v2.2.3)
+
+---
+updated-dependencies:
+- dependency-name: json5
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;zalo_cascadestudio;2d06a8b41ea94c1e5a1328730728948472d67423;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1673079184;"Merge 944a0e53d821d97c22c2f3f2016009f61857570d into c786853e5f85e3862776d1a656bdef47ba343355
+"
+pre;zalo_cascadestudio;a87f1b2bbb867086ee47d50460ae7a7b35e701f6;Toon Van Eyck <toonvaneyck@gmail.com>;1689345785;Fixed faulty link in README.md
+post;zalo_cascadestudio;b922479d135c636eca43606927af42280312f461;Pasukhin Dmitry <44947322+dpasukhi@users.noreply.github.com>;1728550575;"Update ReadMe, OCCT link
+
+OpenCascade main repo located in GitHub.
+OpenCascade is targeted into Enterprise solutions
+OCCT3D is targeted into custom development and OCCT maintaining."
+post;zalo_cascadestudio;c022498e67a2574e532aecc3f287900de66cb277;Johnathon Selstad <makeshifted@gmail.com>;1735837565;"Merge pull request #166 from dpasukhi/patch-1
+
+Update ReadMe, OCCT link"
+post;zalo_cascadestudio;61a64cd2f68008b01dfb50da44a5be5dac7d6867;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736736557;"Merge 944a0e53d821d97c22c2f3f2016009f61857570d into c022498e67a2574e532aecc3f287900de66cb277
+"
+post;zalo_cascadestudio;89dfe8818486532ca5721d186e9eed34dbe1c26d;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1741942474;"Merge 05c467d174b89f11df56660be5e005f556175f55 into c022498e67a2574e532aecc3f287900de66cb277
+"
+post;zalo_cascadestudio;9e7442632a4533265c3964d22d8ee6b5a5b271bc;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1741942474;"Merge 5bd8bc1caa4d6a3db37ba872b30637e5fb03479e into c022498e67a2574e532aecc3f287900de66cb277
+"
+pre;johannfaouzi_pyts;6b635e1f563035a418b677dad6f4534c13723741;johannfaouzi <fazuonjahino@gmail.com>;1687087020;"Update publishing to PyPI workflow
+"
+pre;johannfaouzi_pyts;2bc41e6190d9346055ed5ed633515982b552e39b;Johann Faouzi <fazuonjahino@gmail.com>;1687088535;"Update publishing to PyPI workflow (#150)
+
+"
+pre;johannfaouzi_pyts;3348a6a07c33abfd2b6de0b0124b00d0670da6eb;johannfaouzi <fazuonjahino@gmail.com>;1687090574;"Update publishing workflow
+"
+pre;johannfaouzi_pyts;3d649d6c78790e24c039cd20e0cc88008522c42b;Johann Faouzi <fazuonjahino@gmail.com>;1687091249;"Update publishing workflow (#151)
+
+"
+pre;johannfaouzi_pyts;b5011a2303157e052b3f4e5d3c4ab98159b439c5;BARRAY Sven <id1951@DOMENSAI.ECOLE>;1687251729;"edit requirements.txt to match INSTALL_REQUIRES from setup.py
+"
+pre;johannfaouzi_pyts;80648c9fe064de24705bea66a7315b9ca6d37603;BARRAY Sven <id1951@DOMENSAI.ECOLE>;1687252988;"changed 'affinity' parameter to 'metric' to follow sklearn.cluster.AgglomerativeClustering parameter rename
+"
+pre;johannfaouzi_pyts;36b8ca122df123740b921f88dfb7b0541f6c0c64;SvenBarray <81559445+SvenBarray@users.noreply.github.com>;1687267010;"requirements.txt update and attribute name change (#152)
+
+* edit requirements.txt to match INSTALL_REQUIRES from setup.py
+
+* changed 'affinity' parameter to 'metric' to follow sklearn.cluster.AgglomerativeClustering parameter rename
+
+---------
+
+Co-authored-by: BARRAY Sven <id1951@DOMENSAI.ECOLE>"
+pre;johannfaouzi_pyts;c6d7b3c92eea6aec0dd938c881ed15aebae8c9ed;BARRAY Sven <id1951@DOMENSAI.ECOLE>;1693448253;"added the Boss-SP algorithm and its example. Tests are still missing.
+"
+pre;johannfaouzi_pyts;f94c9f4cf24cebbb1298162f5b4203f2b2fcdad4;BARRAY Sven <id1951@DOMENSAI.ECOLE>;1694471210;"corrected the issues mentientoned in the pull request feedback, except for the ones regarding code similar from other python modules as discussed orally
+"
+pre;johannfaouzi_pyts;7978566dc6f1df6acae754fda8f26b64cc3ccb6f;SvenBarray <81559445+SvenBarray@users.noreply.github.com>;1694471309;"Merge f94c9f4cf24cebbb1298162f5b4203f2b2fcdad4 into 36b8ca122df123740b921f88dfb7b0541f6c0c64
+"
+post;johannfaouzi_pyts;0423fbfe0b67dc1616b2691fa8edfc6783da40a0;Donato Tiano <donatotiano@gmail.com>;1731012632;"Update ucr.py
+
+There is a new link for downloading the UCR Dataset."
+post;johannfaouzi_pyts;805de9ee02874fcea0daa1b6d257b2b18651f31c;antonioscarinci <96891485+antonioscarinci@users.noreply.github.com>;1744046617;"Eigenval/vec returned by SSA fit_transform
+
+Allow the fit_transform method in SSA to return the eigenvalues and the corresponding eigenvectors"
+post;johannfaouzi_pyts;377e44233806c4f2d7cb7e87ab38507044664d27;Santiago M. Mola <santi@mola.io>;1745695725;Fix typo in RecurrencePlot docstrings
+post;johannfaouzi_pyts;28bbd8042cfa9befbceade0c487abf4964d49fd4;Santiago M. Mola <santi@mola.io>;1745786443;"Fix typo in RecurrencePlot docstrings (#170)
+
+"
+post;johannfaouzi_pyts;ed8cfdbc406d88e813049b64280114ae3a5b24d8;Johann Faouzi <johann.faouzi@gmail.com>;1750247467;"Fix LaTeX errors
+"
+post;johannfaouzi_pyts;775bf9f066a2e8fccb1171dad210d4818a3cfa1f;Johann Faouzi <johann.faouzi@gmail.com>;1750256636;"First attempt to fix readthedocs config file
+"
+post;johannfaouzi_pyts;3fb7b735cc310b011dff4c93c1488803fcab7992;Johann Faouzi <johann.faouzi@gmail.com>;1750256811;"Second attemps
+"
+post;johannfaouzi_pyts;a7a4a63d42c5bdce8058040fbe3e75ba2084516d;Johann Faouzi <johann.faouzi@gmail.com>;1750257154;"Third attempt
+"
+post;johannfaouzi_pyts;7d28dbe6797e567b94946d5e6819a57c8a1e12ea;Johann Faouzi <johann.faouzi@gmail.com>;1750257509;"Update sphinx version
+"
+post;johannfaouzi_pyts;841c66293b46e4fea447a7a2462b04f5b4c11a7f;Johann Faouzi <johann.faouzi@gmail.com>;1750257772;"Fourth attemps
+"
